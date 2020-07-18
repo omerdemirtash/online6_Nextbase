@@ -12,10 +12,10 @@ public class loginPage {
     }
 
     @FindBy(name = "USER_LOGIN")
-    public WebElement username;
+    public WebElement usernameBox;
 
     @FindBy(name = "USER_PASSWORD")
-    public WebElement password;
+    public WebElement passwordBox;
 
     @FindBy(xpath = "//input[@class = 'login-btn']")
     public WebElement loginButton;
